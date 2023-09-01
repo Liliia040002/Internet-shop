@@ -1,0 +1,21 @@
+img {
+    width: 20%;
+    
+}
+
+h1 {
+    font-size: 100px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    width: 50px;
+    height: 30px;
+    background-color: blueviolet;
+    margin: 20px;
+    text-align: center;
+}
