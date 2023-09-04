@@ -1,3 +1,12 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
 .header__wraper {
     width: 1160px;
     height: 40px;
@@ -50,3 +59,103 @@ button {
     color: #fff;
 }
 
+.firstScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.firstScreen__wraper {
+    display: flex;
+    align-items:flex-end;
+}
+
+.firstScreen__content {
+    margin-left: 77px;
+
+    
+    
+}
+
+.firstScreen__content__title {
+    width: 520px;
+
+    font-size: 68px;
+    font-weight: 500;
+    color: #156963;
+}
+
+.firstScreen__content__description {
+    width: 520px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin-top: 24px;
+}
+
+.firstScreen__buttons {
+    display: flex;
+
+    margin-top: 110px;
+}
+
+.button {
+    width: 320px;
+    height: 84px;
+
+    padding: 38px 49px;
+
+    
+}
+
+.nameOfFlower {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button div {
+    display: flex;
+
+   
+}
+
+.next {
+    background-color: #156963;
+    color: #fff;
+}
+
+.prev {
+    color: #156963;
+
+    padding-left: 0;
+}
+
+.prev div div {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+    color: #333;
+}
+
+.next div div {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+    color: #F2F2F2;
+}
+
+.prev div img {
+   
+    margin-right: 8px;
+}
+
+.next div img {
+    margin-left: 8px; 
+}
