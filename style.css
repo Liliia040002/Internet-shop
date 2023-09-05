@@ -20,12 +20,21 @@ header {
     
 }
 
-.header__content {
+.header__navigation ul {
     width: 310px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header__navigation ul li {
+    list-style-type: none;
+}
+
+.header__navigation ul li a {
+    text-decoration: none;
+    color: #333;
 }
 
 .icons {
@@ -59,12 +68,12 @@ button {
     color: #fff;
 }
 
-.firstScreen {
+/* .firstScreen {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
-}
+} */
 
 .firstScreen__wraper {
     display: flex;
