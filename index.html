@@ -7,94 +7,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML START</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
-        <div class="header__wraper">
-            <div class="header__logo"><img src="img/logo.svg" alt="logo"></div>
-                <nav class="header__navigation">
-                    <ul>
-                        <li><a href="#"><img src="img/search.svg" alt="search"></a></li>
-                        <li><a href="#"><img src="img/shopping-cart.svg" alt="shopping-cart"></a></li>
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Sign In</a></li>  
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Favorites</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
                     </ul>
-                </nav>
+                    <form class="d-flex" role="search">
+                        <a class="nav-link" href="#"><img src="img/shopping-cart.svg" alt="shopping-cart"></a>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary btn-bg" type="submit">Sign Up</button>
+                        <button class="btn btn-outline-primary" type="submit">Sign In</button>
+                    </form>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <main>
         <section class="firstScreen">
-            <div class="firstScreen__wraper">
-                <div>
+            <!-- <div>
                     <img src="img/mainPhoto.png" alt="mainPhoto">
-                </div>
-                <div>
-                    <div class="firstScreen__content">
-                        <h1 class="firstScreen__content__title">
-                            Kembang Flower Mantap
-                        </h1>
-                        <div class="firstScreen__content__description">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        </div>
-                        <div class="firstScreen__buttons">
-                            <div class="button prev">
-                                
-                                    <div>
-                                        <img src="img/arrowLeft.svg" alt="arrowLeft">
-                                        <div>Previous</div>
-                                    </div>
-                                
-                                <div class="nameOfFlower">Kaktus Plant</div>
-                            </div>
-                            <div class="button next">
-                                
-                                    <div>
-                                        <div>Next</div>
-                                        <img src="img/arrowRight.svg" alt="arrowRight">
-                                    </div>
-                                
-                                <div class="nameOfFlower">Rahasia Plant</div>
-                            </div>
-                        </div>
+                </div> -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-original" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/mainPhoto.png" alt="mint">
                     </div>
+                    <div class="carousel-item">
+                        <img src="img/phix.png" alt="phix">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/tanner.png" alt="tanner">
+                    </div>
+                </div>
+            </div>
+            <div class="firstScreen__content ">
+                <h1 class="firstScreen__content__title">
+                    Kembang Flower Mantap
+                </h1>
+                <div class="firstScreen__content__description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s,
+                </div>
+                <div class="firstScreen__buttons">
+                    <div class="button prev">
 
+                        <div>
+                            <img src="img/arrowLeft.svg" alt="arrowLeft">
+                            <div>Previous</div>
+                        </div>
+
+                        <div class="nameOfFlower">Kaktus Plant</div>
+                    </div>
+                    <div class="button next">
+
+                        <div>
+                            <div>Next</div>
+                            <img src="img/arrowRight.svg" alt="arrowRight">
+                        </div>
+
+                        <div class="nameOfFlower">Rahasia Plant</div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="peferenses">
-            <div class="container">
-                <div>
-                    <div class="peferense__title">
-                        <img src="img/fastDelivery.svg" alt="fastDelivery">
-                        <div class="title-text">Fast Delivery</div>
-                    </div>
-                    <div class="peferense__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+        <section class="preferences">
+
+            <div class="preference">
+                <div class="preference__title">
+                    <img src="img/fastDelivery.svg" alt="fastDelivery">
+                    <div class="title-text">Fast Delivery</div>
                 </div>
-                <div>
-                    <div class="peferense__title">
-                        <img src="img/headphones.svg" alt="headphones">
-                        <div class="title-text">Great Customer Service</div>
-                    </div>
-                    <div class="peferense__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard </div>
+            </div>
+            <div class="preference">
+                <div class="preference__title">
+                    <img src="img/headphones.svg" alt="headphones">
+                    <div class="title-text">Great Customer Service</div>
                 </div>
-                <div>
-                    <div class="peferense__title">
-                        <img src="img/plant.svg" alt="plant">
-                        <div class="title-text">Original Plants</div>
-                    </div>
-                    <div class="peferense__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard </div>
+            </div>
+            <div class="preference">
+                <div class="preference__title">
+                    <img src="img/plant.svg" alt="plant">
+                    <div class="title-text">Original Plants</div>
                 </div>
-                <div>
-                    <div class="peferense__title">
-                        <img src="img/dollar-symbol.svg" alt="dollar">
-                        <div class="title-text">Affordable Price</div>
-                    </div>
-                    <div class="peferense__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard </div>
+            </div>
+            <div class="preference">
+                <div class="preference__title">
+                    <img src="img/dollar-symbol.svg" alt="dollar">
+                    <div class="title-text">Affordable Price</div>
                 </div>
+                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard </div>
             </div>
         </section>
         <section class="catalog">
@@ -105,54 +132,59 @@
                     </div>
                     <form action="#">
                         <select name="plants" id="plants">
-                          <option value="succulents">succulents</option>
-                          <option value="palm">Palm</option>
-                          <option value="Violets">Violets</option>
+                            <option value="succulents">Succulents</option>
+                            <option value="palm">Palm</option>
+                            <option value="Violets">Violets</option>
                         </select>
-                       
-                      </form>
+
+                    </form>
                 </div>
                 <div class="catalog__content">
-                    <div>
-                        <img src="img/Kaktus.png" alt="Kaktus">
-                        <div>Kaktus Plants</div>
-                        <div>IDR 85.000</div>
+                    <div class="card border-light mb-3" style="width: 18rem;">
+                        <img src="img/Kaktus.png" class="card-img-top" alt="Kaktus">
+                        <div class="card-body">
+                            <h5 class="card-title">Kaktus Plants</h5>
+                            <p class="card-text">IDR 85.000</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
                     </div>
-                    <div>
-                        <img src="img/Landak.png" alt="Landak">
-                        <div>Landak Plants</div>
-                        <div>IDR 105.000</div>
+                    <div class="card border-light mb-3" style="width: 18rem;">
+                        <img src="img/Landak.png" class="card-img-top" alt="Landak">
+                        <div class="card-body">
+                            <h5 class="card-title">Landak Plants</h5>
+                            <p class="card-text">IDR 105.000</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
                     </div>
-                    <div>
-                        <img src="img/Kecubung.png" alt="Kecubung">
-                        <div>Kecubung Plants</div>
-                        <div>IDR 85.000</div>
+                    <div class="card border-light mb-3" style="width: 18rem;">
+                        <img src="img/Kecubung.png" class="card-img-top" alt="Kecubung">
+                        <div class="card-body">
+                            <h5 class="card-title">Kecubung Plants</h5>
+                            <p class="card-text">IDR 85.000</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
                     </div>
-                    <div>
-                        <img src="img/Kesubung.png" alt="Kesubung">
-                        <div>Kecubung Plants</div>
-                        <div>IDR 85.000</div>
-                    </div>
-                    <div>
-                        <img src="img/Kecubunt.png" alt="Kecubunt">
-                        <div>Kecubung Plants</div>
-                        <div>IDR 85.000</div>
+                    <div class="card border-light mb-3" style="width: 18rem;">
+                        <img src="img/Kecubunt.png" class="card-img-top" alt="Kecubunt">
+                        <div class="card-body">
+                            <h5 class="card-title">Kecubung Plants</h5>
+                            <p class="card-text">IDR 85.000</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="advertisment">
-            <div class="container">
-                <div>
-                    <h2 class="section__title">Buy more plants, it helps you to be relaxed</h2>
-                    <div class="advertisment__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.</div>
-                </div>
-                <img src="img/plantOnTable.png" alt="plantOnTable">
-                <div>
-                    <img src="img/plantInTheWall.png" alt="">
-                </div>
+       <section class="advertisment">
+            <h2 class="section__title">Buy more plants, it helps you to be relaxed</h2>
+            <div class="advertisment__description">Lorem ipsum dolor sit amet,      
+                consectetur adipiscing elit.
+                Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim
+                non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.
             </div>
-        </section>
+            <img src="img/plantOnTable.png" alt="plantOnTable">
+            <img src="img/plantInTheWall.png" alt="plantInTheWall">
+       </section>
         <section class="call-to-action">
             <div class="container">
                 <h2 class="section__title">Get your favourites plant on our shop now</h2>
@@ -161,34 +193,35 @@
 
         </section>
         <footer>
-           <div class="container">
-            <div class="footer__post-adress">
-                <h3 class="logo">plantku</h3>
-                <p class="post-adress__title">Plantku House</p>
-                <p class="post-adress__content">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p>
+            <div class="container">
+                <div class="footer__post-adress">
+                    <h3 class="logo">plantku</h3>
+                    <p class="post-adress__title">Plantku House</p>
+                    <p class="post-adress__content">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta,
+                        Daerah Istimewa Yogyakarta 55282</p>
+                </div>
+                <div class="footer__perusahaan">
+                    <ul>
+                        <li>Perusahaan</li>
+                        <li>Tentang Kami</li>
+                        <li>Hubungi Kami</li>
+                    </ul>
+                </div>
+                <div class="footer__produk">
+                    <ul>
+                        <li>Produk</li>
+                        <li>Tanaman</li>
+                        <li>Tanaman Lain</li>
+                    </ul>
+                </div>
+                <div class="footer__email-adress">
+                    <form action="">
+                        <label for="#adress">Berlangganan Email Kami</label>
+                        <input id="adress" type="text" placeholder="Masukan Alamat Email">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="footer__perusahaan">
-                <ul>
-                    <li>Perusahaan</li>
-                    <li>Tentang Kami</li>
-                    <li>Hubungi Kami</li>
-                </ul>
-            </div>
-            <div class="footer__produk">
-                <ul>
-                    <li>Produk</li>
-                    <li>Tanaman</li>
-                    <li>Tanaman Lain</li>
-                </ul>
-            </div>
-            <div class="footer__email-adress">
-                <form action="">
-                    <label for="#adress">Berlangganan Email Kami</label>
-                    <input id="adress" type="text" placeholder="Masukan Alamat Email">
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-           </div>
         </footer>
     </main>
 

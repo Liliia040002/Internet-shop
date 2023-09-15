@@ -1,74 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    position: relative;
-    z-index: 1;
-}
-
-.header__wraper {
-    width: 1160px;
-    height: 40px;
-    margin: 0 auto;
-    margin-top: 40px;
-
-
-    display: flex;
-    justify-content: space-between;
-
+    padding: 20px 50px ; 
     
 }
 
-.header__navigation ul {
-    width: 310px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-link img {
+    color: #156963;
 }
 
-.header__navigation ul li {
-    list-style-type: none;
+.form-control {
+    margin-left: 30px;
 }
 
-.header__navigation ul li a {
-    text-decoration: none;
-    color: #333;
+.btn {
+    width: 150px;
 }
 
-.icons {
-    width: 80px;
-
-    display: flex;
-    justify-content: space-between;
+.btn-primary {
+    background-color: #156963;
+    border: none;
+    margin-right: 20px;
+    margin-left: 30px;
 }
 
-.header__content img {
-    width: 20px;
-    height: 20px;
-}
-
-button {
-    width: 110px;
-    height: 40px;
-    margin: 0;
-
-}
-
-.signUp {
-    background-color: white;
+.btn-primary:hover {
+    background-color: #0d4844;
     border: none;
 }
 
-.signIn {
-    border-radius: 0;
-    border: 0;
-    background-color: #156963;
-    color: #fff;
+.btn-bg:active {
+    background-color: #0d4844;
+    border: none;
 }
+
+.btn-outline-primary {
+    color: #156963;
+    border-color: #156963;
+}
+
+.btn-outline-primary:hover {
+    background-color: #156963;
+    border: none;
+}
+
+.btn-outline-primary:active {
+    background-color: #156963;
+    border: none;
+}
+
+
 
 /* .firstScreen {
     position: absolute;
@@ -77,20 +64,20 @@ button {
     z-index: 0;
 } */
 
-.firstScreen__wraper {
+.firstScreen {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding: 0 40px 0 0;
 }
 
 .firstScreen__content {
-    margin-left: 77px;
-
-    
-    
+    margin-right: 77px; 
 }
 
 .firstScreen__content__title {
-    width: 520px;
+    width: 700px;
 
     font-size: 68px;
     font-weight: 500;
@@ -114,8 +101,8 @@ button {
 }
 
 .button {
-    width: 320px;
-    height: 84px;
+    width: 420px;
+    
 
     padding: 38px 49px;
 
@@ -173,5 +160,69 @@ button {
 
 
 .preferences {
-    position: relative;
+    margin: 120px 0;
+    padding: 20px 50px ; 
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.preference {
+    width: 350px;
+    padding: 16px 22px;
+   
+
+    border: 1px solid #E0E0E0;
+}
+
+.preference__title {
+    display: flex;
+    align-items: center;
+}
+
+.title-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #156963;
+    margin-left: 16px;
+   
+}
+
+.preferences__description {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 16px;
+}
+
+.catalog__title {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E0E0E0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+form {
+    font-size: 16px;
+}
+option {
+    padding: 15px;
+}
+
+.catalog__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
