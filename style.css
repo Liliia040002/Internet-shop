@@ -6,8 +6,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    padding: 20px 50px ; 
+header .container {
+    padding: 20px 0 ; 
     
 }
 
@@ -56,29 +56,23 @@ header {
 }
 
 
-
-/* .firstScreen {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-} */
-
 .firstScreen {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-
     padding: 0 40px 0 0;
 }
 
+.firstScreen .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
 .firstScreen__content {
-    margin-right: 77px; 
+    margin-left: 20px;
+    margin-right: 50px; 
 }
 
 .firstScreen__content__title {
     width: 700px;
-
     font-size: 68px;
     font-weight: 500;
     color: #156963;
@@ -86,27 +80,21 @@ header {
 
 .firstScreen__content__description {
     width: 520px;
-
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
-
     margin-top: 24px;
 }
 
 .firstScreen__buttons {
     display: flex;
-
+    justify-content: space-between;
     margin-top: 110px;
 }
 
 .button {
-    width: 420px;
-    
-
-    padding: 38px 49px;
-
-    
+    width: 340px;
+    padding: 38px 49px; 
 }
 
 .nameOfFlower {
@@ -129,7 +117,6 @@ header {
 
 .prev {
     color: #156963;
-
     padding-left: 0;
 }
 
@@ -137,7 +124,6 @@ header {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-
     color: #333;
 }
 
@@ -145,12 +131,10 @@ header {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-
     color: #F2F2F2;
 }
 
 .prev div img {
-   
     margin-right: 8px;
 }
 
@@ -160,18 +144,19 @@ header {
 
 
 .preferences {
-    margin: 120px 0;
+    margin: 100px 0;
     padding: 20px 50px ; 
+}
+
+.preferences .container {
     display: flex;
     justify-content: space-between;
 }
 
 
 .preference {
-    width: 350px;
+    width: 20%;
     padding: 16px 22px;
-   
-
     border: 1px solid #E0E0E0;
 }
 
@@ -203,7 +188,6 @@ header {
     border-top: none;
     border-left: none;
     border-right: none;
-
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -224,5 +208,135 @@ option {
 .card-body {
     text-align: center;
 }
+
+.advertising {
+    padding: 0 50px;
+    margin: 100px 0;
+}
+
+.advertising .container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 50%;
+    justify-items: end;
+}
+
+.section__title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.advertisment__description {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.PhotoAdv {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4; 
+    width: 645px;
+}
+
+.mainPhotoAdv {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    width: 513px;
+}
+
+.call-to-action .container {
+    background: url(img/CTAPicture.png);
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-left: 97px;
+}
+
+.section__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+.call-to-action .section__title {
+    width: 50%;
+}
+
+.call-to-action .btn-primary {
+    margin: 0;
+}
+
+footer .container {
+    padding: 160px 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.footer__post-adress {
+    width: 282px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #156963;
+}
+
+.post-adress__title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.post-adress__content {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer__perusahaan li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer__perusahaan li:nth-child(1) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.footer__produk li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer__produk li:nth-child(1) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 

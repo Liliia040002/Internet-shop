@@ -14,6 +14,7 @@
 
 <body>
     <header>
+       <div class="container">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="logo"></a>
@@ -27,8 +28,11 @@
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="#">Favorites</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link clock" href="#"></a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -40,12 +44,11 @@
                 </div>
             </div>
         </nav>
+       </div>
     </header>
     <main>
         <section class="firstScreen">
-            <!-- <div>
-                    <img src="img/mainPhoto.png" alt="mainPhoto">
-                </div> -->
+        <div class="container">
             <div id="carouselExampleSlidesOnly" class="carousel slide carousel-original" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -88,40 +91,42 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
         <section class="preferences">
-
-            <div class="preference">
-                <div class="preference__title">
-                    <img src="img/fastDelivery.svg" alt="fastDelivery">
-                    <div class="title-text">Fast Delivery</div>
+            <div class="container">
+                <div class="preference">
+                    <div class="preference__title">
+                        <img src="img/fastDelivery.svg" alt="fastDelivery">
+                        <div class="title-text">Fast Delivery</div>
+                    </div>
+                    <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard </div>
                 </div>
-                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard </div>
-            </div>
-            <div class="preference">
-                <div class="preference__title">
-                    <img src="img/headphones.svg" alt="headphones">
-                    <div class="title-text">Great Customer Service</div>
+                <div class="preference">
+                    <div class="preference__title">
+                        <img src="img/headphones.svg" alt="headphones">
+                        <div class="title-text">Great Customer Service</div>
+                    </div>
+                    <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard </div>
                 </div>
-                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard </div>
-            </div>
-            <div class="preference">
-                <div class="preference__title">
-                    <img src="img/plant.svg" alt="plant">
-                    <div class="title-text">Original Plants</div>
+                <div class="preference">
+                    <div class="preference__title">
+                        <img src="img/plant.svg" alt="plant">
+                        <div class="title-text">Original Plants</div>
+                    </div>
+                    <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard </div>
                 </div>
-                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard </div>
-            </div>
-            <div class="preference">
-                <div class="preference__title">
-                    <img src="img/dollar-symbol.svg" alt="dollar">
-                    <div class="title-text">Affordable Price</div>
+                <div class="preference">
+                    <div class="preference__title">
+                        <img src="img/dollar-symbol.svg" alt="dollar">
+                        <div class="title-text">Affordable Price</div>
+                    </div>
+                    <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard </div>
                 </div>
-                <div class="preferences__description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard </div>
             </div>
         </section>
         <section class="catalog">
@@ -175,20 +180,22 @@
                 </div>
             </div>
         </section>
-       <section class="advertisment">
+       <section class="advertising">
+          <div class="container">
             <h2 class="section__title">Buy more plants, it helps you to be relaxed</h2>
             <div class="advertisment__description">Lorem ipsum dolor sit amet,      
                 consectetur adipiscing elit.
                 Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim
                 non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.
             </div>
-            <img src="img/plantOnTable.png" alt="plantOnTable">
-            <img src="img/plantInTheWall.png" alt="plantInTheWall">
+            <img class="PhotoAdv" src="img/plantOnTable.png" alt="plantOnTable">
+            <img class="mainPhotoAdv" src="img/plantInTheWall.png" alt="plantInTheWall">
+          </div>
        </section>
         <section class="call-to-action">
             <div class="container">
                 <h2 class="section__title">Get your favourites plant on our shop now</h2>
-                <button class="call-to-action__button">Visit Shop</button>
+                <button class="btn btn-primary">Visit Shop</button>
             </div>
 
         </section>
@@ -215,7 +222,7 @@
                     </ul>
                 </div>
                 <div class="footer__email-adress">
-                    <form action="">
+                    <form action="#">
                         <label for="#adress">Berlangganan Email Kami</label>
                         <input id="adress" type="text" placeholder="Masukan Alamat Email">
                         <button type="submit">Submit</button>
@@ -226,7 +233,8 @@
     </main>
 
 </body>
-
+<script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </html>
