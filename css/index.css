@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url(./font.css);
 
 
 * {
@@ -56,14 +55,11 @@ header .container {
 }
 
 
-.firstScreen {
-    padding: 0 40px 0 0;
-}
-
 .firstScreen .container {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    gap: 60px;
 }
 
 .firstScreen__content {
@@ -73,9 +69,32 @@ header .container {
 
 .firstScreen__content__title {
     width: 700px;
-    font-size: 68px;
+    
     font-weight: 500;
     color: #156963;
+}
+
+.title-top {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 130px;
+    letter-spacing: 2px;
+    line-height: 130px;
+    color: #495057;
+    /* display: inline; */
+    transform: translateX(145px) translateY(80px);
+    z-index: 0;
+    position: relative;
+}
+
+.title-bottom {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 128px;
+    line-height: 128px;
+    font-weight: 500;
+    display: inline;
+    z-index: 2;
+    position: relative;
+    
 }
 
 .firstScreen__content__description {
@@ -88,13 +107,12 @@ header .container {
 
 .firstScreen__buttons {
     display: flex;
-    justify-content: space-between;
     margin-top: 110px;
 }
 
 .button {
-    width: 340px;
-    padding: 38px 49px; 
+    width: 300px;
+    padding: 40px 20px; 
 }
 
 .nameOfFlower {
@@ -106,6 +124,7 @@ header .container {
 
 .button div {
     display: flex;
+    justify-content: center
 
    
 }
@@ -252,7 +271,7 @@ option {
 }
 
 .call-to-action .container {
-    background: url(img/CTAPicture.png);
+    background: url(../img/CTAPicture.png);
     padding-top: 88px;
     padding-bottom: 88px;
     padding-left: 97px;
@@ -291,11 +310,13 @@ footer .container {
     letter-spacing: 1.2px;
     text-transform: uppercase;
     color: #156963;
+    margin-bottom: 20px;
 }
 
 .post-adress__title {
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .post-adress__content {
@@ -309,6 +330,7 @@ footer .container {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
+    margin-bottom: 10px;
 }
 
 .footer__perusahaan li:nth-child(1) {
@@ -323,6 +345,7 @@ footer .container {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
+    margin-bottom: 10px;
 }
 
 .footer__produk li:nth-child(1) {
@@ -335,6 +358,27 @@ footer .container {
 footer form{
     display: flex;
     flex-direction: column;
+}
+
+.input-name {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.footer__email-adress input {
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #F2F2F2;
+}
+
+.footer__email-adress .button {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    padding: 4px 12px;
+    border: none;
+    background-color: #156963;
+    color: #F2F2F2;
 }
 
 
