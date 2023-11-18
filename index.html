@@ -36,7 +36,12 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
+                        <a class="nav-link" href="#"><img src="img/admin.svg" alt="shopping-cart"></a>
                         <a class="nav-link" href="#"><img src="img/shopping-cart.svg" alt="shopping-cart"></a>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-primary btn-bg" type="submit">Sign Up</button>
                         <button class="btn btn-outline-primary" type="submit">Sign In</button>
@@ -73,21 +78,9 @@
                 </div>
                 <div class="firstScreen__buttons">
                     <div class="button prev">
-<!-- 
-                        <div>
-                            <img src="img/arrowLeft.svg" alt="arrowLeft">
-                            <div>Previous</div>
-                        </div> -->
-
                         <div class="nameOfFlower">Delivery service</div>
                     </div>
                     <div class="button next">
-
-                        <!-- <div>
-                            <div>Next</div>
-                            <img src="img/arrowRight.svg" alt="arrowRight">
-                        </div> -->
-
                         <div class="nameOfFlower">Online-shop</div>
                     </div>
                 </div>
@@ -130,11 +123,11 @@
                 </div>
             </div>
         </section>
-        <section class="catalog">
+        <section class="favorites">
             <div class="container">
                 <div class="catalog__title">
                     <div class="title__plants">
-                        Featured Plants
+                        Favorites Plants
                     </div>
                     <form action="#">
                         <select name="plants" id="plants">
@@ -208,24 +201,11 @@
                     <p class="post-adress__content">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta,
                         Daerah Istimewa Yogyakarta 55282</p>
                 </div>
-                <div class="footer__perusahaan">
-                    <ul>
-                        <li>Perusahaan</li>
-                        <li>Tentang Kami</li>
-                        <li>Hubungi Kami</li>
-                    </ul>
-                </div>
-                <div class="footer__produk">
-                    <ul>
-                        <li>Produk</li>
-                        <li>Tanaman</li>
-                        <li>Tanaman Lain</li>
-                    </ul>
-                </div>
+       
                 <div class="footer__email-adress">
                     <form action="#">
-                        <label class="input-name" for="#adress">Berlangganan Email Kami</label>
-                        <input id="adress" type="text" placeholder="Masukan Alamat Email">
+                        <label class="input-name" for="#adress">Subscribe to our news</label>
+                        <input id="adress" type="text" placeholder="Your email">
                         <button class="button" type="submit">Submit</button>
                     </form>
                 </div>

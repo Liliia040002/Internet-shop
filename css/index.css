@@ -1,4 +1,8 @@
 @import url(./font.css);
+@import url(./header.css);
+@import url(./catalog.css);
+@import url(./modal.css);
+@import url(./general.css);
 
 
 * {
@@ -11,7 +15,7 @@ header .container {
 }
 
 .nav-link img {
-    color: #156963;
+    color:  var(--brand-color);
 }
 
 .form-control {
@@ -23,34 +27,34 @@ header .container {
 }
 
 .btn-primary {
-    background-color: #156963;
+    background-color:  var(--brand-color);
     border: none;
     margin-right: 20px;
     margin-left: 30px;
 }
 
 .btn-primary:hover {
-    background-color: #0d4844;
+    background-color:  var(--hover-effect-color);
     border: none;
 }
 
 .btn-bg:active {
-    background-color: #0d4844;
+    background-color: var(--hover-effect-color);
     border: none;
 }
 
 .btn-outline-primary {
-    color: #156963;
-    border-color: #156963;
+    color:  var(--brand-color);
+    border-color:  var(--brand-color);
 }
 
 .btn-outline-primary:hover {
-    background-color: #156963;
+    background-color: var(--brand-color);
     border: none;
 }
 
 .btn-outline-primary:active {
-    background-color: #156963;
+    background-color: var(--brand-color);
     border: none;
 }
 
@@ -71,7 +75,7 @@ header .container {
     width: 700px;
     
     font-weight: 500;
-    color: #156963;
+    color:  var(--brand-color);
 }
 
 .title-top {
@@ -79,8 +83,7 @@ header .container {
     font-size: 130px;
     letter-spacing: 2px;
     line-height: 130px;
-    color: #495057;
-    /* display: inline; */
+    color: var(--title-top-text-color);
     transform: translateX(145px) translateY(80px);
     z-index: 0;
     position: relative;
@@ -130,12 +133,12 @@ header .container {
 }
 
 .next {
-    background-color: #156963;
-    color: #fff;
+    background-color: var(--brand-color);
+    color: var(--button-text-color);
 }
 
 .prev {
-    color: #156963;
+    color:  var(--brand-color);
     padding-left: 0;
 }
 
@@ -143,14 +146,14 @@ header .container {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    color: #333;
+    
 }
 
 .next div div {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    color: #F2F2F2;
+    color: var(--button-text-color);
 }
 
 .prev div img {
@@ -188,7 +191,7 @@ header .container {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    color: #156963;
+    color:  var(--brand-color);
     margin-left: 16px;
    
 }
@@ -293,14 +296,14 @@ option {
 }
 
 footer .container {
-    padding: 160px 60px;
+    padding: 120px 0;
     display: flex;
     justify-content: space-between;
     color: #333;
 }
 
 .footer__post-adress {
-    width: 282px;
+    width: 400px;
 }
 
 .logo {
@@ -309,7 +312,7 @@ footer .container {
     line-height: 24px;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    color: #156963;
+    color:  var(--brand-color);
     margin-bottom: 20px;
 }
 
@@ -325,33 +328,14 @@ footer .container {
     line-height: 20px;
 }
 
-.footer__perusahaan li {
-    list-style-type: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    margin-bottom: 10px;
-}
 
-.footer__perusahaan li:nth-child(1) {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
-    margin-bottom: 20px;
-}
 
-.footer__produk li {
-    list-style-type: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    margin-bottom: 10px;
-}
 
 
 footer form{
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .input-name {
@@ -371,8 +355,8 @@ footer form{
     height: 30px;
     padding: 4px 12px;
     border: none;
-    background-color: #156963;
-    color: #F2F2F2;
+    background-color: var(--brand-color);
+    color: var(--button-text-color);
 }
 
 
