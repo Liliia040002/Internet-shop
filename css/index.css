@@ -348,12 +348,6 @@ footer .container {
     margin-bottom: 10px;
 }
 
-.footer__produk li:nth-child(1) {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
-    margin-bottom: 20px;
-}
 
 footer form{
     display: flex;
