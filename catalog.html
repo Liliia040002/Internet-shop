@@ -12,7 +12,12 @@
         <div class="container">
          <nav class="navbar navbar-expand-lg ">
              <div class="container-fluid">
-                 <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="logo"></a>
+                 <a class="navbar-brand" href="#">
+                    <svg id="svg-logo" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.5 1.44338C17.047 0.550211 18.953 0.550212 20.5 1.44338L31.0885 7.55662C32.6355 8.44979 33.5885 10.1004 33.5885 11.8868V24.1132C33.5885 25.8996 32.6355 27.5502 31.0885 28.4434L20.5 34.5566C18.953 35.4498 17.047 35.4498 15.5 34.5566L4.91154 28.4434C3.36454 27.5502 2.41154 25.8996 2.41154 24.1132V11.8868C2.41154 10.1004 3.36454 8.44979 4.91154 7.55662L15.5 1.44338Z" fill="#156963"/>
+                        </svg>
+                        
+                 </a>
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                      data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                      aria-label="Toggle navigation">
@@ -31,12 +36,29 @@
                          </li>
                      </ul>
                      <form class="d-flex" role="search">
-                         <a class="nav-link" href="#"><img src="img/admin.svg" alt="shopping-cart"></a>
-                         <a class="nav-link" href="#"><img src="img/shopping-cart.svg" alt="shopping-cart"></a>
+                         <a class="nav-link" id="admin" href="#">
+                            <svg id="adminBtn" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.91454 5.66724L11.4158 4.16618L13.4284 2.15249C12.593 2.06551 11.7492 2.19217 10.9763 2.5206C10.2033 2.84902 9.52642 3.36843 9.00923 4.03008C8.49204 4.69174 8.15146 5.47393 8.01947 6.30326C7.88748 7.13258 7.9684 7.98184 8.25464 8.77132L8.71635 10.0416L7.76035 10.996L2.38267 16.3743C2.29795 16.4553 2.23026 16.5523 2.18358 16.6598C2.13689 16.7673 2.11216 16.883 2.11083 17.0001C2.1095 17.1173 2.1316 17.2335 2.17582 17.342C2.22005 17.4505 2.28552 17.5491 2.36838 17.632C2.45124 17.7148 2.54982 17.7803 2.65834 17.8245C2.76685 17.8687 2.88311 17.8908 3.00028 17.8895C3.11746 17.8881 3.23319 17.8634 3.34067 17.8167C3.44815 17.7701 3.54522 17.7024 3.62618 17.6177L9.00528 12.2408L9.95986 11.2849L11.2303 11.7451C12.0199 12.0313 12.8693 12.1122 13.6987 11.9803C14.5281 11.8483 15.3105 11.5078 15.9722 10.9906C16.6339 10.4735 17.1534 9.79677 17.4819 9.02389C17.8104 8.25102 17.9371 7.40737 17.8501 6.57213L15.8361 8.58723L14.3348 10.0855L12.8335 8.5844L11.4172 7.1683L9.91312 5.66724H9.91454ZM18.6573 2.93418C19.5315 4.14097 20.0014 5.59329 20 7.08334C20.0004 8.22093 19.7267 9.34188 19.2021 10.3513C18.6774 11.3607 17.9172 12.2288 16.9858 12.8822C16.0544 13.5356 14.9793 13.955 13.8515 14.1049C12.7236 14.2547 11.5763 14.1307 10.5066 13.7432L5.12887 19.1201C4.84988 19.3991 4.51868 19.6204 4.15416 19.7713C3.78965 19.9223 3.39897 20 3.00442 20C2.60988 20 2.21919 19.9223 1.85468 19.7713C1.49017 19.6204 1.15896 19.3991 0.879975 19.1201C0.316536 18.5568 0 17.7927 0 16.996C0 16.1993 0.316536 15.4352 0.879975 14.8719L6.25766 9.49495C5.73745 8.06106 5.69425 6.49754 6.1345 5.03712C6.57476 3.57671 7.47492 2.29748 8.70099 1.38988C9.92707 0.482267 11.4135 -0.00519796 12.939 4.18034e-05C14.4645 0.00528157 15.9476 0.502946 17.1674 1.41896L15.6435 2.94267L14.4212 4.16476L12.9185 5.66724L14.3348 7.08334L15.8361 5.58228L17.0598 4.35877L18.5837 2.83505L18.6573 2.93418Z" fill="#156963"/>
+                                </svg>
+                         </a>
+                         <a class="nav-link" href="#">
+                            <svg id="shoping-card" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_0_102)">
+                                <path d="M7.50002 18.3333C7.96026 18.3333 8.33335 17.9602 8.33335 17.5C8.33335 17.0397 7.96026 16.6666 7.50002 16.6666C7.03978 16.6666 6.66669 17.0397 6.66669 17.5C6.66669 17.9602 7.03978 18.3333 7.50002 18.3333Z" stroke="#156963" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.6666 18.3333C17.1269 18.3333 17.5 17.9602 17.5 17.5C17.5 17.0397 17.1269 16.6666 16.6666 16.6666C16.2064 16.6666 15.8333 17.0397 15.8333 17.5C15.8333 17.9602 16.2064 18.3333 16.6666 18.3333Z" stroke="#156963" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M0.833313 0.833374H4.16665L6.39998 11.9917C6.47618 12.3754 6.6849 12.72 6.9896 12.9653C7.2943 13.2106 7.67556 13.3409 8.06665 13.3334H16.1666C16.5577 13.3409 16.939 13.2106 17.2437 12.9653C17.5484 12.72 17.7571 12.3754 17.8333 11.9917L19.1666 5.00004H4.99998" stroke="#156963" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_0_102">
+                                <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                         </a>
                          <label class="switch">
                              <input type="checkbox">
                              <span class="slider round"></span>
-                           </label>
+                         </label>
                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                          <button class="btn btn-primary btn-bg" type="submit">Sign Up</button>
                          <button class="btn btn-outline-primary" type="submit">Sign In</button>
@@ -132,7 +154,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Kaktus Plants</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -140,7 +162,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Gasteria</h5>
                             <p class="card-text">IDR 105.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -148,7 +170,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Mammillaria</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -156,7 +178,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Kecubung Plants</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -164,7 +186,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Kaktus Plants</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -172,7 +194,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Gasteria</h5>
                             <p class="card-text">IDR 105.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -180,7 +202,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Mammillaria</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -188,7 +210,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Kecubung Plants</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                     <div class="card border-light mb-3" style="width: 18rem;">
@@ -196,7 +218,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Kaktus Plants</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                 </div>
@@ -266,7 +288,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Kaktus Plants</h5>
                             <p class="card-text">IDR 85.000</p>
-                            <a href="#" class="btn btn-primary">Buy</a>
+                            <button class="btn btn-primary">Buy</button>
                         </div>
                     </div>
                 </form>
@@ -276,7 +298,9 @@
 
 
 
-
+   
 
 </body>
+
+<script src="js/index.js"></script>
 </html>
