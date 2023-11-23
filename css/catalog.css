@@ -25,13 +25,26 @@ body {
 }
 
 .catalog .catalog-list {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    
 }
 
 .catalog .catalog-list form {
     margin-bottom: 40px;
+}
+
+.plants-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.catalog__content {
+    margin-right: 15px;
 }
 
 .catalog .title {

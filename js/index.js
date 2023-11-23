@@ -1,15 +1,18 @@
-// Open nd close modal window
-  const adminButton = document.getElementById('admin');
-  const modal = document.querySelector('.modal-window');
-  const closeButton = document.querySelector('.close');
-
-  adminButton.addEventListener('click', function() {
-    modal.classList.toggle('modal-window_active');
-  });
-
-  closeButton.addEventListener('click', function() {
-      modal.classList.toggle('modal-window_active');
-  });
+    // Open and close modal window
+    const adminButton = document.getElementById('admin');
+    const modal = document.querySelector('.modal-window');
+    const closeButton = document.querySelector('.close');
+  
+    adminButton.addEventListener('click', function() {
+      modal.classList.add('modal-window_active');
+    });
+  
+    closeButton.addEventListener('click', function() {
+      modal.classList.remove('modal-window_active');
+    });
+  
+    const category = document.getElementById('categories');
+    const plants = document.getElementById('plants');
 
 
   // Toggle switch theme website

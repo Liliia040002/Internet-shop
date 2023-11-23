@@ -77,22 +77,22 @@
     <section class="catalog">
     <div class="container">
         <nav>
-            <form action="">
+            <form class="filter" action="">
                 <p class="title">Categories</p>
                 <p class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="palm" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
                         Palm
                     </label>
                   </p>
                   <p class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <input class="form-check-input" type="checkbox" value="succulents" id="flexCheckChecked" checked>
                     <label class="form-check-label" for="flexCheckChecked">
                         Succulents
                     </label>
                   </p>
                   <p class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <input class="form-check-input" type="checkbox" value="violets" id="flexCheckChecked" checked>
                     <label class="form-check-label" for="flexCheckChecked">
                         Violets
                     </label>
@@ -100,19 +100,19 @@
 
                 <p class="title size">Size</p>
                 <p class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="small" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
                         Small
                     </label>
                 </p>
                 <p class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <input class="form-check-input" type="checkbox" value="medium" id="flexCheckChecked" checked>
                     <label class="form-check-label" for="flexCheckChecked">
                         Medium
                     </label>
                 </p>
                 <p class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <input class="form-check-input" type="checkbox" value="big" id="flexCheckChecked" checked>
                     <label class="form-check-label" for="flexCheckChecked">
                         Big
                     </label>
@@ -120,13 +120,13 @@
 
                 <p class="title size">Feature</p>
                 <p class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <input class="form-check-input" type="checkbox" value="sun-loving" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                         Sun-loving
                       </label>
                 </p>
                 <p class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <input class="form-check-input" type="checkbox" value="shade-loving" id="flexCheckChecked" checked>
                       <label class="form-check-label" for="flexCheckChecked">
                         Shade-loving
                       </label>
@@ -140,88 +140,15 @@
         </nav>
       
         <div class="catalog-list">
-            <form action="#">
+            <form class="filter" action="">
                 <select name="plants" id="plants">
-                    <option value="succulents">Best match</option>
-                    <option value="palm">Price cheap</option>
-                    <option value="Violets">Price expensive</option>
+                    <option value="best-match">Best match</option>
+                    <option value="price-cheap">Price cheap</option>
+                    <option value="price-expensive">Price expensive</option>
                 </select>
             </form>
             <div class="plants-list">
-                <div class="catalog__content">
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Kaktus.png" class="card-img-top" alt="Kaktus">
-                        <div class="card-body">
-                            <h5 class="card-title">Kaktus Plants</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Landak.png" class="card-img-top" alt="Landak">
-                        <div class="card-body">
-                            <h5 class="card-title">Gasteria</h5>
-                            <p class="card-text">IDR 105.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Kecubung.png" class="card-img-top" alt="Kecubung">
-                        <div class="card-body">
-                            <h5 class="card-title">Mammillaria</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Kecubunt.png" class="card-img-top" alt="Kecubunt">
-                        <div class="card-body">
-                            <h5 class="card-title">Kecubung Plants</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Kaktus.png" class="card-img-top" alt="Kaktus">
-                        <div class="card-body">
-                            <h5 class="card-title">Kaktus Plants</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Landak.png" class="card-img-top" alt="Landak">
-                        <div class="card-body">
-                            <h5 class="card-title">Gasteria</h5>
-                            <p class="card-text">IDR 105.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Kecubung.png" class="card-img-top" alt="Kecubung">
-                        <div class="card-body">
-                            <h5 class="card-title">Mammillaria</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Kecubunt.png" class="card-img-top" alt="Kecubunt">
-                        <div class="card-body">
-                            <h5 class="card-title">Kecubung Plants</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: 18rem;">
-                        <img src="img/Kaktus.png" class="card-img-top" alt="Kaktus">
-                        <div class="card-body">
-                            <h5 class="card-title">Kaktus Plants</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
       
         </div>
@@ -269,27 +196,19 @@
                 </form>
 
                 <form class="edit-plant" action="">
-                    <select name="plants" id="categories">
-                        <option value="succulents">Succulents</option>
+                    <select name="categories" id="categories">
                         <option value="palm">Palm</option>
+                        <option value="succulents">Succulents</option>
                         <option value="violets">Violets</option>
                     </select>
-                    <select name="plants" id="plants">
-                        <option value="succulents">Best match</option>
-                        <option value="palm">Price cheap</option>
-                        <option value="Violets">Price expensive</option>
-                    </select>
+                    <select name="plants" id="plants-list"></select>
                     <div class="buttons">
                         <button type="button"><img src="img/edit.svg" alt="edit"></button>
-                        <button type="reset"><img src="img/delete.svg" alt="delete"></button>
+                        <button class="delete-btn" type="reset"><img src="img/delete.svg" alt="delete"></button>
                     </div>
                     <div class="card border-light mb-3 modal-card">
-                        <img src="img/Kaktus.png" class="card-img-top" alt="Kaktus">
-                        <div class="card-body">
-                            <h5 class="card-title">Kaktus Plants</h5>
-                            <p class="card-text">IDR 85.000</p>
-                            <button class="btn btn-primary">Buy</button>
-                        </div>
+                       
+                    </div>
                     </div>
                 </form>
             </div>
@@ -298,9 +217,16 @@
 
 
 
-   
+
 
 </body>
 
+<script src="js/modal-window.js"></script>
+<script src="api\products.json"></script>
+
+<script src="js/card.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/sort-products.js"></script>
+<script src="js/products-list.js"></script>
 <script src="js/index.js"></script>
 </html>
