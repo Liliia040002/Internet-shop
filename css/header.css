@@ -72,3 +72,15 @@
   .nav-link {
     margin-right: 20px;
   }
+
+
+  .header-logo {
+    width: 32px;
+    height: 35px;
+    fill: var(--brand-color);
+  
+  }
+
+  #adminBtn {
+    fill: var(--brand-color);
+  }

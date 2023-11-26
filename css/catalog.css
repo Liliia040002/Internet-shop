@@ -44,7 +44,7 @@ body {
 }
 
 .catalog__content {
-    margin-right: 15px;
+    margin-left: 44px;
 }
 
 .catalog .title {
@@ -89,4 +89,8 @@ body {
     display: block;
     margin-bottom: 100px;
     margin-top: 50px;
+}
+
+.plant-item {
+    margin-left: 40px;
 }
